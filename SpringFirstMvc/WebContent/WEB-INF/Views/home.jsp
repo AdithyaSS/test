@@ -11,6 +11,7 @@
 		<h1>
 			Student First Name : ${studFName}<br> Student Last Name :
 			${studLName}
+			
 		</h1>
 	</div>
 </body>
