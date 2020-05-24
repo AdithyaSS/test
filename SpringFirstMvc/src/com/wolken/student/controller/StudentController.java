@@ -1,8 +1,8 @@
 package com.wolken.student.controller;
 
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
@@ -25,6 +25,15 @@ public class StudentController {
 	public ModelAndView getModelAndView() {
 		return new ModelAndView("myPage");
 	}
-	
-	//New rest methods will come here.
+
+	@RequestMapping(value = "/studentDetails")
+	public String getParameterValues(@RequestParam("studId") int studId, @RequestParam("studName") String studName,
+			@RequestParam("branchName") String streamBelongTo, @RequestParam("cgpa") double cgpa) {
+		StringBuilder builder = new StringBuilder();
+		builder.append(String.valueOf(studId)).append("\t").append(studName).append("\t").append(streamBelongTo)
+				.append("\t").append(cgpa);
+		return builder.toString();
+	}
+
+	// New rest methods will come here.
 }
