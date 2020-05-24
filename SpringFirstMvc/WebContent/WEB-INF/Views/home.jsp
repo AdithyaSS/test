@@ -6,11 +6,12 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
 </head>
-<body bgcolor = "#cc6600">
+<body bgcolor="#cc6600">
 	<div align="center">
 		<h2>
-			Student First Name : ${studFName}<br> Student Last Name :
-			${studLName}
+			<i> Student First Name : ${studFName}<br> Student Last Name
+				: ${studLName}
+			</i>
 		</h2>
 	</div>
 </body>

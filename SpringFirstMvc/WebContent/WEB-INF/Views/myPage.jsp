@@ -8,7 +8,9 @@
 </head>
 <body>
 	<div align="center">
-		<h1>This is my "myPage" page.</h1>
+		<i>
+			<h1>This is my "myPage" page.</h1>
+		</i>
 	</div>
 </body>
 </html>
