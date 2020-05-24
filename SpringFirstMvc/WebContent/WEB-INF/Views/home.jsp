@@ -11,6 +11,7 @@
 		<h2>
 			Student First Name : ${studFName}<br> Student Last Name :
 			${studLName}
+			<!-- New lines may be added -->
 		</h2>
 	</div>
 </body>
