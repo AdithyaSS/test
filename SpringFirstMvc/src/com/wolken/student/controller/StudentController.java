@@ -25,4 +25,6 @@ public class StudentController {
 	public ModelAndView getModelAndView() {
 		return new ModelAndView("myPage");
 	}
+	
+	//New rest methods will come here.
 }
