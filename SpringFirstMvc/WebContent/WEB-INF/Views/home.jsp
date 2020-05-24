@@ -8,10 +8,10 @@
 </head>
 <body bgcolor = "#cc6600">
 	<div align="center">
-		<h2>
+		<h1>
 			Student First Name : ${studFName}<br> Student Last Name :
 			${studLName}
-		</h2>
+		</h1>
 	</div>
 </body>
 </html>
