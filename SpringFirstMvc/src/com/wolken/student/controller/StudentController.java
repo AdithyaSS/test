@@ -21,14 +21,6 @@ public class StudentController {
 		return 571111;
 	}
 
-	@RequestMapping(value = "/display", method = RequestMethod.GET)
-	public String homePage(Model model) {
-		model.addAttribute("studFName", "Adithya");
-		model.addAttribute("studLName", 'S');
-		System.out.println("\"display\" is a void method");
-		return "home";
-	}
-
 	@RequestMapping(value = "/myView", method = RequestMethod.GET)
 	public ModelAndView getModelAndView() {
 		return new ModelAndView("myPage");
