@@ -18,4 +18,5 @@ public class CricketController {
 		return cricketService.getPlayerWrtJerseyNumb(jersyeNumber);
 	}
 
+	// APIs has to be developed here.
 }
